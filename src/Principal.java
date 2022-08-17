@@ -1,7 +1,8 @@
 public  class Principal extends Person{
     private String yearsOfExperience;
-    private String maritalStatus;
 
+    // Marital status can be either of single, married or divorce
+    private String maritalStatus;
 
     public Principal(String yearsOfExperience, String maritalStatus, String name, long id, String email, String password,String address, Roles role, School school) {
         super(id, name, email,password,address,role,school );
